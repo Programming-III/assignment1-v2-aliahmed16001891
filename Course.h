@@ -17,6 +17,9 @@ public:
     Course(string courseCode,string courseName,int maxStudents );
     Course();
     ~Course();
+    string getCourseCode();
+    string getCourseName();
+    string getMaxStudents();
 };
 
 
