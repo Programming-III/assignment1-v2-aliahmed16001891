@@ -72,7 +72,25 @@ return experienceYears;
 }
 
 // ==================== Course Class Implementation ====================
-
+Course:: Course(string courseCode,string courseName,int maxStudents){
+this->courseCode=courseCode;
+    this->courseName=courseName;
+    this->maxStudents=maxStudents;
+     students= nullptr;
+    currentStudents=0;
+}
+Course:: Course(){
+courseName=" ";
+    maxStudents=0;
+}
+   Course:: ~Course(){
+delete [] students;
+   }
+void Course:: displayCourseInfo(){
+cout<<"Course: "<< courseName<< endl;
+    cout<< "Max Students:"<< maxStudents <<endl;
+    cout<< "Currently enrolled"<< students[currentStudents]<<endl;
+}
 
 
 
