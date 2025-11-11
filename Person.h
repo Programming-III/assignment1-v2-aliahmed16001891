@@ -13,7 +13,8 @@ public:
 Person(string name, int id);
 Person();
 ~Person();
-
+string getName();
+int getId();
 
 
 
