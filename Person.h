@@ -3,8 +3,16 @@
 
 #include <string>
 using namespace std;
+class Person{
 
-//#write Person class here
+private:
+    string name;
+    int id;
+public:
+    void diplay();
+Person(string name, int id);
+Person();
+~Person();
 
 
 
@@ -14,7 +22,6 @@ using namespace std;
 
 
 
-
-
+};
 
 #endif
