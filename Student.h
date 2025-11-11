@@ -12,6 +12,8 @@ public:
     Student(int yearLevel, string major );
     Student();
     ~Student();
+    string getMajor();
+    int getYearLevel();
 };
 
 
