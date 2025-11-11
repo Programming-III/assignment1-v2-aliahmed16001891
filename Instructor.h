@@ -11,6 +11,8 @@ public:
     Instructor(string department,int experienceYears);
     Instructor();
     ~Instructor();
+    string getDepartment();
+    int getExperienceLevel();
 };
 
 
